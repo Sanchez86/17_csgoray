@@ -1,0 +1,1097 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Template</title>
+    <link href="css/jquery.jscrollpane.css" rel="stylesheet" />
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/fonts.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet">
+	<link href="css/media.css" rel="stylesheet">
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/easypiechart.min.js"></script>
+    <script src="js/jquery.jscrollpane.min.js"></script>
+    <script src="js/jquery.mousewheel.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
+    <script src="js/donut-pie-chart.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</head>
+<body><!--class="modal-open"-->
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"><!-- in-->
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                       
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">Create new COINFLIP</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="deposit_block">
+                        <div class="deposit_block_left">
+                            <p>min. $2, max. 10 items.</p>
+                            <p>Select from your items, and then click to Deposit. You will receive an offer contains the selected items which you can confirm.</p>
+                        </div>
+                        <div class="deposit_block_center">
+                            <img src="images/deposit_block_center1.png" alt="deposit_block_center1" />
+                            <img src="images/deposit_block_center2.png" alt="deposit_block_center2" />
+                        </div>
+                        <div class="deposit_block_right">
+                            <div class="deposit_block_right_time">
+                                <p>Time to wait for the game:</p>
+                                <div>
+                                    <a href="#">10 min.</a>
+                                    <a href="#">20 min.</a>
+                                    <a href="#">30 min.</a>
+                                </div>
+                            </div>
+                            <div class="deposit">
+                                <a href="#">Deposit</a>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="total">
+                        Total: <span>3 items</span> valued at <span>$147.06</span>
+                    </div>
+                    <div class="inventory_block">
+                        <a href="#" class="inventory">Your inventory</a>
+                        <a href="#" class="refresh">Refresh inventory</a>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="block_guns">
+                        <div class="block_gun scroll">
+                            <div class="gun">
+                                <div class="inner_gun">
+                                    <img src="images/gun.png" />
+                                    <p class="name_gun">P250 Blue force</p>
+                                    <div class="price_gun">$ 0.21</div>
+                                </div>
+                            </div>
+                            <div class="gun">
+                                <div class="inner_gun">
+                                    <img src="images/gun.png" />
+                                    <p class="name_gun">P250 Blue force</p>
+                                    <div class="price_gun">$ 0.21</div>
+                                </div>
+                            </div>
+                            <div class="gun">
+                                <div class="inner_gun">
+                                    <img src="images/gun.png" />
+                                    <p class="name_gun">P250 Blue force</p>
+                                    <div class="price_gun">$ 0.21</div>
+                                </div>
+                            </div>
+                            <div class="gun">
+                                <div class="inner_gun">
+                                    <img src="images/gun.png" />
+                                    <p class="name_gun">P250 Blue force</p>
+                                    <div class="price_gun">$ 0.21</div>
+                                </div>
+                            </div>
+                            <div class="gun">
+                                <div class="inner_gun">
+                                    <img src="images/gun.png" />
+                                    <p class="name_gun">P250 Blue force</p>
+                                    <div class="price_gun">$ 0.21</div>
+                                </div>
+                            </div>
+                            <div class="gun">
+                                <div class="inner_gun">
+                                    <img src="images/gun.png" />
+                                    <p class="name_gun">P250 Blue force</p>
+                                    <div class="price_gun">$ 0.21</div>
+                                </div>
+                            </div>
+                            <div class="gun">
+                                <div class="inner_gun">
+                                    <img src="images/gun.png" />
+                                    <p class="name_gun">P250 Blue force</p>
+                                    <div class="price_gun">$ 0.21</div>
+                                </div>
+                            </div>
+                            <div class="gun">
+                                <div class="inner_gun">
+                                    <img src="images/gun.png" />
+                                    <p class="name_gun">P250 Blue force</p>
+                                    <div class="price_gun">$ 0.21</div>
+                                </div>
+                            </div><div class="gun">
+                                <div class="inner_gun">
+                                    <img src="images/gun.png" />
+                                    <p class="name_gun">P250 Blue force</p>
+                                    <div class="price_gun">$ 0.21</div>
+                                </div>
+                            </div>
+                            <div class="gun">
+                                <div class="inner_gun">
+                                    <img src="images/gun.png" />
+                                    <p class="name_gun">P250 Blue force</p>
+                                    <div class="price_gun">$ 0.21</div>
+                                </div>
+                            </div>
+                            <div class="gun">
+                                <div class="inner_gun">
+                                    <img src="images/gun.png" />
+                                    <p class="name_gun">P250 Blue force</p>
+                                    <div class="price_gun">$ 0.21</div>
+                                </div>
+                            </div>
+                            <div class="gun">
+                                <div class="inner_gun">
+                                    <img src="images/gun.png" />
+                                    <p class="name_gun">P250 Blue force</p>
+                                    <div class="price_gun">$ 0.21</div>
+                                </div>
+                            </div>
+                            <div class="gun">
+                                <div class="inner_gun">
+                                    <img src="images/gun.png" />
+                                    <p class="name_gun">P250 Blue force</p>
+                                    <div class="price_gun">$ 0.21</div>
+                                </div>
+                            </div>
+                            <div class="gun">
+                                <div class="inner_gun">
+                                    <img src="images/gun.png" />
+                                    <p class="name_gun">P250 Blue force</p>
+                                    <div class="price_gun">$ 0.21</div>
+                                </div>
+                            </div>
+                            <div class="gun">
+                                <div class="inner_gun">
+                                    <img src="images/gun.png" />
+                                    <p class="name_gun">P250 Blue force</p>
+                                    <div class="price_gun">$ 0.21</div>
+                                </div>
+                            </div>
+                            <div class="gun">
+                                <div class="inner_gun">
+                                    <img src="images/gun.png" />
+                                    <p class="name_gun">P250 Blue force</p>
+                                    <div class="price_gun">$ 0.21</div>
+                                </div>
+                            </div>
+                            <div class="gun">
+                                <div class="inner_gun">
+                                    <img src="images/gun.png" />
+                                    <p class="name_gun">P250 Blue force</p>
+                                    <div class="price_gun">$ 0.21</div>
+                                </div>
+                            </div>
+                            <div class="gun">
+                                <div class="inner_gun">
+                                    <img src="images/gun.png" />
+                                    <p class="name_gun">P250 Blue force</p>
+                                    <div class="price_gun">$ 0.21</div>
+                                </div>
+                            </div>
+                            <div class="gun">
+                                <div class="inner_gun">
+                                    <img src="images/gun.png" />
+                                    <p class="name_gun">P250 Blue force</p>
+                                    <div class="price_gun">$ 0.21</div>
+                                </div>
+                            </div>
+                            <div class="gun">
+                                <div class="inner_gun">
+                                    <img src="images/gun.png" />
+                                    <p class="name_gun">P250 Blue force</p>
+                                    <div class="price_gun">$ 0.21</div>
+                                </div>
+                            </div>
+                            <div class="gun">
+                                <div class="inner_gun">
+                                    <img src="images/gun.png" />
+                                    <p class="name_gun">P250 Blue force</p>
+                                    <div class="price_gun">$ 0.21</div>
+                                </div>
+                            </div>
+                            <div class="gun">
+                                <div class="inner_gun">
+                                    <img src="images/gun.png" />
+                                    <p class="name_gun">P250 Blue force</p>
+                                    <div class="price_gun">$ 0.21</div>
+                                </div>
+                            </div>
+                            <div class="gun">
+                                <div class="inner_gun">
+                                    <img src="images/gun.png" />
+                                    <p class="name_gun">P250 Blue force</p>
+                                    <div class="price_gun">$ 0.21</div>
+                                </div>
+                            </div>
+                            <div class="gun">
+                                <div class="inner_gun">
+                                    <img src="images/gun.png" />
+                                    <p class="name_gun">P250 Blue force</p>
+                                    <div class="price_gun">$ 0.21</div>
+                                </div>
+                            </div><div class="gun">
+                                <div class="inner_gun">
+                                    <img src="images/gun.png" />
+                                    <p class="name_gun">P250 Blue force</p>
+                                    <div class="price_gun">$ 0.21</div>
+                                </div>
+                            </div>
+                            <div class="gun">
+                                <div class="inner_gun">
+                                    <img src="images/gun.png" />
+                                    <p class="name_gun">P250 Blue force</p>
+                                    <div class="price_gun">$ 0.21</div>
+                                </div>
+                            </div>
+                            <div class="gun">
+                                <div class="inner_gun">
+                                    <img src="images/gun.png" />
+                                    <p class="name_gun">P250 Blue force</p>
+                                    <div class="price_gun">$ 0.21</div>
+                                </div>
+                            </div>
+                            <div class="gun">
+                                <div class="inner_gun">
+                                    <img src="images/gun.png" />
+                                    <p class="name_gun">P250 Blue force</p>
+                                    <div class="price_gun">$ 0.21</div>
+                                </div>
+                            </div>
+                            <div class="gun">
+                                <div class="inner_gun">
+                                    <img src="images/gun.png" />
+                                    <p class="name_gun">P250 Blue force</p>
+                                    <div class="price_gun">$ 0.21</div>
+                                </div>
+                            </div>
+                            <div class="gun">
+                                <div class="inner_gun">
+                                    <img src="images/gun.png" />
+                                    <p class="name_gun">P250 Blue force</p>
+                                    <div class="price_gun">$ 0.21</div>
+                                </div>
+                            </div>
+                            <div class="gun">
+                                <div class="inner_gun">
+                                    <img src="images/gun.png" />
+                                    <p class="name_gun">P250 Blue force</p>
+                                    <div class="price_gun">$ 0.21</div>
+                                </div>
+                            </div>
+                            <div class="gun">
+                                <div class="inner_gun">
+                                    <img src="images/gun.png" />
+                                    <p class="name_gun">P250 Blue force</p>
+                                    <div class="price_gun">$ 0.21</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header>
+        <a href="index.html" class="logo"></a>
+        <div class="logInBlock">
+            <a href="#" class="sound"></a>
+            <a href="#" class="avatar"></a>
+
+            <div class="userInfo">
+                <div class="playerName">Player name</div>
+                <div class="playerColunt">1000</div>
+            </div>
+            <a href="#" class="logIn"></a>
+        </div>
+        <div class="clear"></div>
+    </header>
+    <div id="wrap" class="wrap">
+        <div id="menue">
+            <ul>
+                <li><img src="images/menue_line.png" /></li>
+                <li><a class="link1" href="#">Classic game</a></li>
+                <li><a class="link2" href="#">Double Game</a></li>
+                <li><a class="link3" href="#">Free coins</a></li>
+                <li><a class="link4 active" href="#">Referal</a></li>
+                <li><a class="link5" href="#">Store</a></li>
+                <li><a class="link6" href="#">F.A.Q.</a></li>
+                <li><a class="link7" href="#">Settings</a></li>
+                <li><a class="link8" href="#">Tech support</a></li>
+                <li><a class="link9" href="#">Where to begin</a></li>
+                <li><a class="link10" href="#">Fair game</a></li>
+                <li><a class="link11" href="#">Terms of Use</a></li>
+                <li><img src="images/menue_line.png" /></li>
+            </ul>
+            <div class="banner">
+                <h5>Giveaway</h5>
+                <img src="images/banner.png" />
+                <a href="#" class="link">Join now</a>
+            </div>
+            <div class="online">Players online:<span>152</span></div>
+        </div>
+        <div id="one">
+            <div class="circle">
+                <div class="exp"></div>
+                <div class="countBlock">
+                    <div class="count_dollar">$ 0</div>
+                    <div class="count_time">00:00</div>
+                    <div class="count_users">0/50</div>
+                </div>
+            </div>
+            <div class="min_max">
+                <a href="#" class="link">Deposit items</a>
+                <p>min $0.5, max 10 items/ deposit</p>
+                <div class="summ">9.05%</div>
+                <p>your chance to win</p>
+            </div>
+            <div class="block_gun scroll">
+                <div class="gun">
+                    <div class="inner_gun">
+                        <img src="images/gun.png" />
+                        <p class="name_gun">P250 Blue force</p>
+                        <div class="price_gun">$ 0.21</div>
+                    </div>
+                </div>
+                <div class="gun">
+                    <div class="inner_gun">
+                        <img src="images/gun.png" />
+                        <p class="name_gun">P250 Blue force</p>
+                        <div class="price_gun">$ 0.21</div>
+                    </div>
+                </div>
+                <div class="gun">
+                    <div class="inner_gun">
+                        <img src="images/gun.png" />
+                        <p class="name_gun">P250 Blue force</p>
+                        <div class="price_gun">$ 0.21</div>
+                    </div>
+                </div>
+                <div class="gun">
+                    <div class="inner_gun">
+                        <img src="images/gun.png" />
+                        <p class="name_gun">P250 Blue force</p>
+                        <div class="price_gun">$ 0.21</div>
+                    </div>
+                </div>
+                <div class="gun">
+                    <div class="inner_gun">
+                        <img src="images/gun.png" />
+                        <p class="name_gun">P250 Blue force</p>
+                        <div class="price_gun">$ 0.21</div>
+                    </div>
+                </div>
+                <div class="gun">
+                    <div class="inner_gun">
+                        <img src="images/gun.png" />
+                        <p class="name_gun">P250 Blue force</p>
+                        <div class="price_gun">$ 0.21</div>
+                    </div>
+                </div>
+                <div class="gun">
+                    <div class="inner_gun">
+                        <img src="images/gun.png" />
+                        <p class="name_gun">P250 Blue force</p>
+                        <div class="price_gun">$ 0.21</div>
+                    </div>
+                </div>
+                <div class="gun">
+                    <div class="inner_gun">
+                        <img src="images/gun.png" />
+                        <p class="name_gun">P250 Blue force</p>
+                        <div class="price_gun">$ 0.21</div>
+                    </div>
+                </div><div class="gun">
+                    <div class="inner_gun">
+                        <img src="images/gun.png" />
+                        <p class="name_gun">P250 Blue force</p>
+                        <div class="price_gun">$ 0.21</div>
+                    </div>
+                </div>
+                <div class="gun">
+                    <div class="inner_gun">
+                        <img src="images/gun.png" />
+                        <p class="name_gun">P250 Blue force</p>
+                        <div class="price_gun">$ 0.21</div>
+                    </div>
+                </div>
+                <div class="gun">
+                    <div class="inner_gun">
+                        <img src="images/gun.png" />
+                        <p class="name_gun">P250 Blue force</p>
+                        <div class="price_gun">$ 0.21</div>
+                    </div>
+                </div>
+                <div class="gun">
+                    <div class="inner_gun">
+                        <img src="images/gun.png" />
+                        <p class="name_gun">P250 Blue force</p>
+                        <div class="price_gun">$ 0.21</div>
+                    </div>
+                </div>
+                <div class="gun">
+                    <div class="inner_gun">
+                        <img src="images/gun.png" />
+                        <p class="name_gun">P250 Blue force</p>
+                        <div class="price_gun">$ 0.21</div>
+                    </div>
+                </div>
+                <div class="gun">
+                    <div class="inner_gun">
+                        <img src="images/gun.png" />
+                        <p class="name_gun">P250 Blue force</p>
+                        <div class="price_gun">$ 0.21</div>
+                    </div>
+                </div>
+                <div class="gun">
+                    <div class="inner_gun">
+                        <img src="images/gun.png" />
+                        <p class="name_gun">P250 Blue force</p>
+                        <div class="price_gun">$ 0.21</div>
+                    </div>
+                </div>
+                <div class="gun">
+                    <div class="inner_gun">
+                        <img src="images/gun.png" />
+                        <p class="name_gun">P250 Blue force</p>
+                        <div class="price_gun">$ 0.21</div>
+                    </div>
+                </div>
+                <div class="gun">
+                    <div class="inner_gun">
+                        <img src="images/gun.png" />
+                        <p class="name_gun">P250 Blue force</p>
+                        <div class="price_gun">$ 0.21</div>
+                    </div>
+                </div>
+                <div class="gun">
+                    <div class="inner_gun">
+                        <img src="images/gun.png" />
+                        <p class="name_gun">P250 Blue force</p>
+                        <div class="price_gun">$ 0.21</div>
+                    </div>
+                </div>
+                <div class="gun">
+                    <div class="inner_gun">
+                        <img src="images/gun.png" />
+                        <p class="name_gun">P250 Blue force</p>
+                        <div class="price_gun">$ 0.21</div>
+                    </div>
+                </div>
+                <div class="gun">
+                    <div class="inner_gun">
+                        <img src="images/gun.png" />
+                        <p class="name_gun">P250 Blue force</p>
+                        <div class="price_gun">$ 0.21</div>
+                    </div>
+                </div>
+                <div class="gun">
+                    <div class="inner_gun">
+                        <img src="images/gun.png" />
+                        <p class="name_gun">P250 Blue force</p>
+                        <div class="price_gun">$ 0.21</div>
+                    </div>
+                </div>
+                <div class="gun">
+                    <div class="inner_gun">
+                        <img src="images/gun.png" />
+                        <p class="name_gun">P250 Blue force</p>
+                        <div class="price_gun">$ 0.21</div>
+                    </div>
+                </div>
+                <div class="gun">
+                    <div class="inner_gun">
+                        <img src="images/gun.png" />
+                        <p class="name_gun">P250 Blue force</p>
+                        <div class="price_gun">$ 0.21</div>
+                    </div>
+                </div>
+                <div class="gun">
+                    <div class="inner_gun">
+                        <img src="images/gun.png" />
+                        <p class="name_gun">P250 Blue force</p>
+                        <div class="price_gun">$ 0.21</div>
+                    </div>
+                </div><div class="gun">
+                    <div class="inner_gun">
+                        <img src="images/gun.png" />
+                        <p class="name_gun">P250 Blue force</p>
+                        <div class="price_gun">$ 0.21</div>
+                    </div>
+                </div>
+                <div class="gun">
+                    <div class="inner_gun">
+                        <img src="images/gun.png" />
+                        <p class="name_gun">P250 Blue force</p>
+                        <div class="price_gun">$ 0.21</div>
+                    </div>
+                </div>
+                <div class="gun">
+                    <div class="inner_gun">
+                        <img src="images/gun.png" />
+                        <p class="name_gun">P250 Blue force</p>
+                        <div class="price_gun">$ 0.21</div>
+                    </div>
+                </div>
+                <div class="gun">
+                    <div class="inner_gun">
+                        <img src="images/gun.png" />
+                        <p class="name_gun">P250 Blue force</p>
+                        <div class="price_gun">$ 0.21</div>
+                    </div>
+                </div>
+                <div class="gun">
+                    <div class="inner_gun">
+                        <img src="images/gun.png" />
+                        <p class="name_gun">P250 Blue force</p>
+                        <div class="price_gun">$ 0.21</div>
+                    </div>
+                </div>
+                <div class="gun">
+                    <div class="inner_gun">
+                        <img src="images/gun.png" />
+                        <p class="name_gun">P250 Blue force</p>
+                        <div class="price_gun">$ 0.21</div>
+                    </div>
+                </div>
+                <div class="gun">
+                    <div class="inner_gun">
+                        <img src="images/gun.png" />
+                        <p class="name_gun">P250 Blue force</p>
+                        <div class="price_gun">$ 0.21</div>
+                    </div>
+                </div>
+                <div class="gun">
+                    <div class="inner_gun">
+                        <img src="images/gun.png" />
+                        <p class="name_gun">P250 Blue force</p>
+                        <div class="price_gun">$ 0.21</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="two">
+            <div class="jackpot">
+                <a href="#" class="history">History</a><span>jackpot</span><a href="#" class="id">#796563</a>
+            </div>
+            <div class="panel-group scroll" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                        <h4 class="panel-title">
+                            <a href="#" class="ava">
+                                <img src="images/ava1.jpg" />
+                            </a>
+                            <a href="#" class="user_name">user_name1</a>
+                            <span>deposited</span>
+                            <a href="#" class="skins"><span>5</span> skins</a>
+                            <span>valued at</span>
+                            <a href="#" class="dollars">$12.46</a>
+                            <a class="caret" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"></a>
+                            <a href="#" class="chance">Chance - <span>5%</span></a>
+                            <i class="clear"></i>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="panel-body">
+                            <div id="block_gun2" class="block_gun">
+                                <div class="gun">
+                                    <div class="inner_gun">
+                                        <img src="images/gun.png" />
+                                        <p class="name_gun">P250 Blue force</p>
+                                        <div class="price_gun">$ 0.21</div>
+                                    </div>
+                                </div>
+                                <div class="gun">
+                                    <div class="inner_gun">
+                                        <img src="images/gun.png" />
+                                        <p class="name_gun">P250 Blue force</p>
+                                        <div class="price_gun">$ 0.21</div>
+                                    </div>
+                                </div>
+                                <div class="gun">
+                                    <div class="inner_gun">
+                                        <img src="images/gun.png" />
+                                        <p class="name_gun">P250 Blue force</p>
+                                        <div class="price_gun">$ 0.21</div>
+                                    </div>
+                                </div>
+                                <div class="gun">
+                                    <div class="inner_gun">
+                                        <img src="images/gun.png" />
+                                        <p class="name_gun">P250 Blue force</p>
+                                        <div class="price_gun">$ 0.21</div>
+                                    </div>
+                                </div>
+                                <div class="gun">
+                                    <div class="inner_gun">
+                                        <img src="images/gun.png" />
+                                        <p class="name_gun">P250 Blue force</p>
+                                        <div class="price_gun">$ 0.21</div>
+                                    </div>
+                                </div>
+                                <div class="gun">
+                                    <div class="inner_gun">
+                                        <img src="images/gun.png" />
+                                        <p class="name_gun">P250 Blue force</p>
+                                        <div class="price_gun">$ 0.21</div>
+                                    </div>
+                                </div>
+                                <div class="gun">
+                                    <div class="inner_gun">
+                                        <img src="images/gun.png" />
+                                        <p class="name_gun">P250 Blue force</p>
+                                        <div class="price_gun">$ 0.21</div>
+                                    </div>
+                                </div>
+                                <div class="gun">
+                                    <div class="inner_gun">
+                                        <img src="images/gun.png" />
+                                        <p class="name_gun">P250 Blue force</p>
+                                        <div class="price_gun">$ 0.21</div>
+                                    </div>
+                                </div>
+                                <div class="gun">
+                                    <div class="inner_gun">
+                                        <img src="images/gun.png" />
+                                        <p class="name_gun">P250 Blue force</p>
+                                        <div class="price_gun">$ 0.21</div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingTwo">
+                        <h4 class="panel-title">
+                            <a href="#" class="ava">
+                                <img src="images/ava2.jpg" />
+                            </a>
+                            <a href="#" class="user_name">user_name2</a>
+                            <span>deposited</span>
+                            <a href="#" class="skins"><span>5</span> skins</a>
+                            <span>valued at</span>
+                            <a href="#" class="dollars">$12.46</a>
+                            <a class="caret collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"></a>
+                            <a href="#" class="chance">Chance - <span>5%</span></a>
+                            <i class="clear"></i>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <div class="panel-body">
+                            <div id="block_gun2" class="block_gun">
+                                <div class="gun">
+                                    <div class="inner_gun">
+                                        <img src="images/gun.png" />
+                                        <p class="name_gun">P250 Blue force</p>
+                                        <div class="price_gun">$ 0.21</div>
+                                    </div>
+                                </div>
+                                <div class="gun">
+                                    <div class="inner_gun">
+                                        <img src="images/gun.png" />
+                                        <p class="name_gun">P250 Blue force</p>
+                                        <div class="price_gun">$ 0.21</div>
+                                    </div>
+                                </div>
+                                <div class="gun">
+                                    <div class="inner_gun">
+                                        <img src="images/gun.png" />
+                                        <p class="name_gun">P250 Blue force</p>
+                                        <div class="price_gun">$ 0.21</div>
+                                    </div>
+                                </div>
+                                <div class="gun">
+                                    <div class="inner_gun">
+                                        <img src="images/gun.png" />
+                                        <p class="name_gun">P250 Blue force</p>
+                                        <div class="price_gun">$ 0.21</div>
+                                    </div>
+                                </div>
+                                <div class="gun">
+                                    <div class="inner_gun">
+                                        <img src="images/gun.png" />
+                                        <p class="name_gun">P250 Blue force</p>
+                                        <div class="price_gun">$ 0.21</div>
+                                    </div>
+                                </div>
+                                <div class="gun">
+                                    <div class="inner_gun">
+                                        <img src="images/gun.png" />
+                                        <p class="name_gun">P250 Blue force</p>
+                                        <div class="price_gun">$ 0.21</div>
+                                    </div>
+                                </div>
+                                <div class="gun">
+                                    <div class="inner_gun">
+                                        <img src="images/gun.png" />
+                                        <p class="name_gun">P250 Blue force</p>
+                                        <div class="price_gun">$ 0.21</div>
+                                    </div>
+                                </div>
+                                <div class="gun">
+                                    <div class="inner_gun">
+                                        <img src="images/gun.png" />
+                                        <p class="name_gun">P250 Blue force</p>
+                                        <div class="price_gun">$ 0.21</div>
+                                    </div>
+                                </div>
+                                <div class="gun">
+                                    <div class="inner_gun">
+                                        <img src="images/gun.png" />
+                                        <p class="name_gun">P250 Blue force</p>
+                                        <div class="price_gun">$ 0.21</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingThree">
+                        <h4 class="panel-title">
+                            <a href="#" class="ava">
+                                <img src="images/ava3.jpg" />
+                            </a>
+                            <a href="#" class="user_name">user_name3</a>
+                            <span>deposited</span>
+                            <a href="#" class="skins"><span>5</span> skins</a>
+                            <span>valued at</span>
+                            <a href="#" class="dollars">$12.46</a>
+                            <a class="caret collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"></a>
+                            <a href="#" class="chance">Chance - <span>5%</span></a>
+                            <i class="clear"></i>
+                        </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                        <div class="panel-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading4">
+                        <h4 class="panel-title">
+                            <a href="#" class="ava">
+                                <img src="images/ava4.jpg" />
+                            </a>
+                            <a href="#" class="user_name">user_name3</a>
+                            <span>deposited</span>
+                            <a href="#" class="skins"><span>5</span> skins</a>
+                            <span>valued at</span>
+                            <a href="#" class="dollars">$12.46</a>
+                            <a class="caret collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4"></a>
+                            <a href="#" class="chance">Chance - <span>5%</span></a>
+                            <i class="clear"></i>
+                        </h4>
+                    </div>
+                    <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
+                        <div class="panel-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading5">
+                        <h4 class="panel-title">
+                            <a href="#" class="ava">
+                                <img src="images/ava5.jpg" />
+                            </a>
+                            <a href="#" class="user_name">user_name3</a>
+                            <span>deposited</span>
+                            <a href="#" class="skins"><span>5</span> skins</a>
+                            <span>valued at</span>
+                            <a href="#" class="dollars">$12.46</a>
+                            <a class="caret collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapse5"></a>
+                            <a href="#" class="chance">Chance - <span>5%</span></a>
+                            <i class="clear"></i>
+                        </h4>
+                    </div>
+                    <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                        <div class="panel-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading6">
+                        <h4 class="panel-title">
+                            <a href="#" class="ava">
+                                <img src="images/ava6.jpg" />
+                            </a>
+                            <a href="#" class="user_name">user_name3</a>
+                            <span>deposited</span>
+                            <a href="#" class="skins"><span>5</span> skins</a>
+                            <span>valued at</span>
+                            <a href="#" class="dollars">$12.46</a>
+                            <a class="caret collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="false" aria-controls="collapse6"></a>
+                            <a href="#" class="chance">Chance - <span>5%</span></a>
+                            <i class="clear"></i>
+                        </h4>
+                    </div>
+                    <div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                        <div class="panel-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading7">
+                        <h4 class="panel-title">
+                            <a href="#" class="ava">
+                                <img src="images/ava7.jpg" />
+                            </a>
+                            <a href="#" class="user_name">user_name3</a>
+                            <span>deposited</span>
+                            <a href="#" class="skins"><span>5</span> skins</a>
+                            <span>valued at</span>
+                            <a href="#" class="dollars">$12.46</a>
+                            <a class="caret collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse7" aria-expanded="false" aria-controls="collapse7"></a>
+                            <a href="#" class="chance">Chance - <span>5%</span></a>
+                            <i class="clear"></i>
+                        </h4>
+                    </div>
+                    <div id="collapse7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                        <div class="panel-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading8">
+                        <h4 class="panel-title">
+                            <a href="#" class="ava">
+                                <img src="images/ava8.jpg" />
+                            </a>
+                            <a href="#" class="user_name">user_name3</a>
+                            <span>deposited</span>
+                            <a href="#" class="skins"><span>5</span> skins</a>
+                            <span>valued at</span>
+                            <a href="#" class="dollars">$12.46</a>
+                            <a class="caret collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse8" aria-expanded="false" aria-controls="collapse8"></a>
+                            <a href="#" class="chance">Chance - <span>5%</span></a>
+                            <i class="clear"></i>
+                        </h4>
+                    </div>
+                    <div id="collapse8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                        <div class="panel-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="twoBottom lastGame">
+                <h2>Last Game</h2>
+                <table>
+                    <tr>
+                        <td class="sub_playerName">
+                            <div class="playerName">Player</div>
+                            <div>
+                                <img src="images/ava1.jpg" />
+                            </div>
+                        </td>
+                        <td class="lastGameData">
+                            <table>
+                                <tr>
+                                    <td class="grayText">Sum</td>
+                                    <td>$212.09</td>
+                                    <td class="grayText">Hash</td>
+                                    <td>123fdsgdfg/123765646/hdfgh123</td>
+                                </tr>
+                                <tr>
+                                    <td class="grayText">Chance</td>
+                                    <td>45%</td>
+                                    <td class="grayText">Round number</td>
+                                    <td>0.65546457864345676567</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td class="lastGameData"><a href="#" class="lastGameDataMore">More</a></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="lastGameBlockUsers">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading9">
+                        <h4 class="panel-title">
+                            <a href="#" class="ava">
+                                <img src="images/ava8.jpg" />
+                            </a>
+                            <a href="#" class="user_name">user_name3</a>
+                            <a href="#" class="gun_items"><span>12</span> items</a>
+                            <a href="#" class="chance">Chance - <span>5%</span></a>
+                            <a href="#" class="dollars">$12.46</a>
+                            <a class="caret collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse9" aria-expanded="false" aria-controls="collapse9"></a>
+                            
+                            <i class="clear"></i>
+                        </h4>
+                    </div>
+                    <div id="collapse9" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                        <div class="panel-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+        <div id="three">
+            <div class="jackpot">
+                <a href="#" class="history">History</a><span>1 vs 1</span><a href="#" class="history createGame" data-toggle="modal" data-target="#myModal">Create game</a>
+            </div>
+            <div class="block_games">
+                <div class="block_active_games">
+                    <div class="ava_create">
+                        <img src="images/ava_clan.png" />
+                    </div>
+                    <div class="ava_create2">
+                        <img src="images/ava_clan2.png" />
+                    </div>
+                    <div class="chart2" data-percent="100"></div>
+                    <div class="money_create">$89.09</div>
+                    <a href="#" class="eye"></a>
+                    <a href="#" class="plus"></a>
+                    <div class="clear"></div>
+                </div>
+                <div class="block_active_games">
+                    <div class="ava_create">
+                        <img src="images/ava_clan.png" />
+                    </div>
+                    <div class="ava_create2">
+                        <img src="images/ava_clan2.png" />
+                    </div>
+                    <div class="chart" data-percent="100"></div>
+                    <div class="money_create">$89.09</div>
+                    <a href="#" class="eye"></a>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="twoBottom lastGame">
+                <h2>Last Game</h2>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td class="sub_playerName">
+                                <div class="playerName">Player</div>
+                                <div>
+                                    <img src="images/ava1.jpg">
+                                </div>
+                            </td>
+                            <td class="lastGameData">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="grayText">Sum</td>
+                                            <td>$212.09</td>
+                                            <td class="grayText">Hash</td>
+                                            <td>123fdsgdfg/123765646/hdfgh123</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="grayText">Chance</td>
+                                            <td>45%</td>
+                                            <td class="grayText">Round number</td>
+                                            <td>0.65546457864345676567</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                            <td class="lastGameData"><a href="#" class="lastGameDataMore">More</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <footer>
+        <div class="status">CS:GO Steambot Status:<a href="#">on</a></div>
+        <div class="social">
+            <a href="#" class="s1"></a>
+            <a href="#" class="s2"></a>
+            <a href="#" class="s3"></a>
+        </div>
+        <div class="footerLinks">
+            <a href="#">Get started</a>
+            <a href="#">Provarly Fair</a>
+            <a href="#">Terms Of Service</a>
+        </div>
+    </footer>
+    
+    <script>
+        var element = document.querySelector('.chart');
+        new EasyPieChart(element, {
+            size:45,
+            lineWidth: 7,
+            scaleLength: 0,
+            barColor: '#000237',
+            trackColor: '#3eb5f1',
+            scaleColor: '#000',
+            animate: 10000
+        });
+        var element2 = document.querySelector('.chart2');
+        new EasyPieChart(element2, {
+            size: 45,
+            lineWidth: 7,
+            scaleLength: 0,
+            barColor: '#692d3b',
+            trackColor: '#b24c4c',
+            scaleColor: '#000',
+            animate: 50000
+        });
+    </script>
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            /**
+             [
+                 {"name" : "JavaScript", "hvalue" : 20 },
+                 {"name" : "d3", "hvalue" : 2},
+                 {"name" : "jQuery", "hvalue" : 25},
+                 {"name" : "SVG", "hvalue" : 5}
+            ]
+             */
+            function get_data() {
+                var props = ['javascript', "d3", "jQuery", "SVG"];
+                var out = [];
+                for (var i = 0; i < props.length; i++) {
+                    out.push({ "name": props[i], "hvalue": Math.floor(Math.random() * 100) });
+                };
+                return out;
+            }
+
+            // init the pie
+            $(".exp").donutpie({
+                radius: 387,
+                tooltip: true,
+                tooltipClass: "donut-pie-tooltip-bubble"
+            });
+
+
+            // update it with some fake data
+            $(".exp").donutpie('update', get_data());
+
+            // keep updating every x sec
+            setInterval(function () {
+                $(".exp").donutpie('update', get_data());
+            }, 1200);
+
+        });
+
+    </script>
+    <script src="js/script.js"></script>
+    <script type="text/javascript">
+		$(function(){
+		    $('.scroll').jScrollPane();
+		});
+		$('.collapse').collapse({
+		    toggle: false
+		});
+    </script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Lato-BoldItalic';
+    src: url('../fonts/Lato-BoldItalic.eot') format('embedded-opentype'), url('../fonts/Lato-BoldItalic.otf') format('opentype'), url('../fonts/Lato-BoldItalic.ttf') format('truetype'), url('../fonts/Lato-BoldItalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url('../fonts/Lato-Regular.eot') format('embedded-opentype'), url('../fonts/Lato-Regular.otf') format('opentype'), url('../fonts/Lato-Regular.ttf') format('truetype'), url('../fonts/Lato-Regular.woff') format('woff');
+}
